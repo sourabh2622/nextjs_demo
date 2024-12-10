@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function page() {
     return (
@@ -12,24 +13,24 @@ export default function page() {
                     <div className="flex flex-wrap md:-m-2 -m-1">
                         <div className="flex flex-wrap w-1/2">
                             <div className="md:p-2 p-1 w-1/2">
-                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" />
+                                <Image alt="gallery" className="w-full object-cover h-full object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" width={500} height={200} ></Image>
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
-                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" />
+                                <Image alt="gallery" className="w-full object-cover h-full object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" width={500} height={200} ></Image>
                             </div>
                             <div className="md:p-2 p-1 w-full">
-                                <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" />
+                                <Image alt="gallery" className="w-full h-full object-cover object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" width={500} height={200} ></Image>
                             </div>
                         </div>
                         <div className="flex flex-wrap w-1/2">
                             <div className="md:p-2 p-1 w-full">
-                                <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" />
+                                <Image alt="gallery" className="w-full h-full object-cover object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" width={500} height={200} ></Image>
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
-                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" />
+                                <Image alt="gallery" className="w-full object-cover h-full object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" width={500} height={200} ></Image>
                             </div>
                             <div className="md:p-2 p-1 w-1/2">
-                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" />
+                                <Image alt="gallery" className="w-full object-cover h-full object-center block" src="https://nextui.org/images/hero-card-complete.jpeg" width={500} height={200} ></Image>
                             </div>
                         </div>
                     </div>
