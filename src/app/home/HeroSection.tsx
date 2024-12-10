@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image } from '@nextui-org/react'
+import Image from 'next/image'
 
 export default function HeroSection() {
     return (
@@ -10,7 +10,7 @@ export default function HeroSection() {
 
                     alt="NextUI hero Image"
                     src="https://nextui.org/images/hero-card-complete.jpeg"
-                    
+                    width={1000} height={600}
                 />
             </div>
         </div>
