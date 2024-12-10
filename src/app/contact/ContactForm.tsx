@@ -73,7 +73,6 @@ export default function ContactForm() {
           <textarea
             id="message"
             name="message"
-            rows="5"
             placeholder="Write your message here"
             required
             className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
