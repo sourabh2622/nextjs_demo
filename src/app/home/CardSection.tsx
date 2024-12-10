@@ -1,6 +1,7 @@
 "use client";
 
-import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
+import { Card, CardBody, CardFooter } from "@nextui-org/react";
+import Image from "next/image";
 
 export default function CardSection() {
   const list = [
@@ -58,10 +59,9 @@ export default function CardSection() {
                 <Image
                   alt={item.title}
                   className="w-full object-cover h-[180px]"
-                  radius="lg"
-                  shadow="sm"
                   src={item.img}
-                  width="100%"
+                  width={200}
+                  height={150}
                 />
               </CardBody>
               <CardFooter className="text-small justify-between">
